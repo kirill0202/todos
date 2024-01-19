@@ -17,7 +17,7 @@ const TodoPage = () => {
       completed: false,
     },
   });
-
+  // вынес бы сагу отдельную, времени не хватило:)
   useEffect(() => {
     if (todos.length) {
       sessionStorage.setItem("todos", JSON.stringify(todos));
